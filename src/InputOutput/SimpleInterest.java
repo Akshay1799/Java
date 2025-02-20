@@ -1,5 +1,8 @@
+package InputOutput;
+
 import java.util.Scanner;
-public class simpleInterest {
+
+public class SimpleInterest {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
@@ -15,7 +18,7 @@ public class simpleInterest {
         float si = (amount*interest*time)/100;
 
         System.out.println("Total interest is: " + si);
-        System.out.println("Total payable amount is: " + (amount+si));
+        System.out.println("Total payable amount is: " + (amount + si));
 
     }
 }
